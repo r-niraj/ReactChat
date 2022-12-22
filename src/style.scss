@@ -42,6 +42,10 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    @include mobile(){
+        background-color: white;
+    }
     .formWrapper{
         background-color: #fff;
         padding: 20px 60px;
